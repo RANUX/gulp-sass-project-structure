@@ -1,3 +1,20 @@
-body {
+.box {
+  margin: 100px;
+  width: 100px;
+  height: 100px;
   background-color: red;
+  text-decoration: none;
+  display: block;
+  transition-property: all;
+  transition-duration: 1;
+  transition-delay: .9s;
+
+  transition: all 500ms cubic-bezier(0.445, 0.050, 0.550, 0.950); /* easeInOutSine */
+  transition-timing-function: cubic-bezier(0.445, 0.050, 0.550, 0.950); /* easeInOutSine */
+}
+
+.box:hover {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
 }
