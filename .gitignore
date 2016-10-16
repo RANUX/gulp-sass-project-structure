@@ -34,7 +34,7 @@ main.css
 bundle.js
 coverage
 .remote-sync.json
-
+css/
 server/*.bundle.js
 public/js/bundle*
 
