@@ -1,13 +1,19 @@
-## Simple base project structure
+## Configurable SASS project template
+
 
 ### Libs
 
 * https://github.com/sass/node-sass
 * https://github.com/postcss/autoprefixer
 
+
 ### Setup
 
 npm install
+
+### Configure
+Open ```app/scss/base/*.scss``` and configure for your project needs.
+
 
 ### Reference articles
 
