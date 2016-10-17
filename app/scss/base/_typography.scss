@@ -1,0 +1,19 @@
+// Typography
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: get-decrement($h1-font-size, $i, $h1-font-decrease-factor);
+    line-height: get-increment($h1-line-height, $i, $h1-line-height-increment-factor);
+  }
+}
+
+p {
+  margin-top: 0;
+}

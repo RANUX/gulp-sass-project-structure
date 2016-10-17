@@ -25,6 +25,8 @@ pids
 logs
 results
 tmp
+pinegrow.json
+_pgbackup
 
 npm-debug.log
 *.iml

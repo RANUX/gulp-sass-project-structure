@@ -1,0 +1,32 @@
+
+// Typography Vars
+// -----------------
+
+$font-family: "Lato", Helvetica, Arial, sans-serif !default;
+
+$h1-font-size: 4rem;
+$h1-font-decrease-factor: 1/2;
+
+$h1-line-height: 1.1;
+$h1-line-height-increment-factor: 1/5;
+
+
+// Media Vars
+// -----------------
+$XS:    20rem;  // 200px;
+$S:     30rem;  // 300px
+$SM:    56rem;  // 560px
+$M:     75rem; // 760px
+$L:    100rem;  // 1000px
+$XL:   120rem;  // 1760px
+$XXL:  288rem;  // 2880px
+
+$mediaVars:(
+  XS: $XS,
+   S: $S,
+  SM: $SM,
+   M: $M,
+   L: $L,
+  XL: $XL,
+ XXL: $XXL
+);

@@ -1,0 +1,18 @@
+// Base Styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+// NOTE
+// html is set to 62.5% so that all the REM measurements
+// are based on 10px sizing. So basically 1.5rem = 15px :)
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  @include container(1200px);
+  font-family: $font-family;
+}

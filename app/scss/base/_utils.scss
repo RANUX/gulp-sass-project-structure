@@ -1,0 +1,10 @@
+//
+// -------------
+// -
+@function get-decrement($start, $index, $factor){
+  @return $start - (($index - 1) * $factor);
+}
+
+@function get-increment($start, $index, $factor){
+  @return $start + (($index - 1) * $factor);
+}
